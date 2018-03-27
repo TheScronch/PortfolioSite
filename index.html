@@ -1,0 +1,240 @@
+<html>
+	<head>
+		<script src="scripts/jquery-3.2.1.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="style/style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Rajdhani:400,600,700" rel="stylesheet">
+	</head>
+	<body>
+		<div id="header-top">
+		</div>
+		<header>
+			<div id="header-container">
+				<div id="title">DUNCAN YEWELL</div>
+				<div id="button-container">
+					<button class="nav-button" id="button1">GAMES</button>
+					<button class="nav-button" id="button2">GRAPHICS</button>
+					<button class="nav-button" id="button3">ANIMATION</button>
+					<button class="nav-button" id="button4">ABOUT</button>
+					<!-- <button class="nav-dropdown-button">MENU</button> -->
+					<div class="nav-dropdown-button">
+						<input id="check" type="checkbox"/>
+						<label for="check">MENU</label>
+						<ul class="nav-menu">
+							<li id="button5"><a>GAMES</a></li>
+							<li id="button6"><a>ANIMATION</a></li>
+							<li id="button7"><a>GRAPHICS</a></li>
+							<li id="button8"><a>ABOUT</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div id="game-projects">
+			<div id="section-container">
+				<div class="title">
+					GAMES
+				</div>
+				<hr align="left">
+
+				<div class="project-container">
+					<div class="project-img-container">
+						<img class="project-img" src="images/WizardScreenshot01.png">
+					</div>
+					<div class="project-info">
+						<div class="project-title">
+							<img class="triangle-right" src="images/ProjectTriangle.svg">
+							WIZARD GAME
+						</div>
+						A card collecting real-time strategy. Traverse a strange, interdimensional world while collecting elemental cards to cast spells against the evil that lurks.
+						<br/>
+						<br/>
+						Role: Lead Designer, Lead Programmer, 2D Artist.
+					</div>
+				</div>
+				
+				<div class="project-container project-container-left">
+					<div class="project-info">
+						<div class="project-title">
+							<img class="triangle-left" src="images/ProjectTriangle.svg">
+							KITTY HAWK
+						</div>
+						An endless, flying VR simulator inspired by 80's era futuristic imagery. Navigate a variety of obstacles while collecting coins to earn rewards and a competitive high score.
+						</br>
+						</br>
+						Currently in early access on <a href="http://store.steampowered.com/app/640250/Kitty_Hawk/" style="font-size: 21px;">Steam.</a>
+						<br/>
+						<br/>
+						Roles: Obstacle Designer, Enemy AI Programmer, 3D Artist.
+					</div>
+					<div class="project-img-container">
+						<img class="project-img" src="images/kittyhawk.jpg">
+					</div>
+				</div>
+				
+				<div class="project-container">
+					<div class="project-img-container">
+						<img class="project-img" src="images/Puffy.gif">
+					</div>
+					<div class="project-info">
+						<div class="project-title">
+							<img class="triangle-right triangle-right-small" src="images/ProjectTriangle.svg">
+							PUFF PUFF
+						</div>
+						An arcade style platformer where players take control of a puffy cloud. Players must keep the cloud airbourne by firing lightning into the ground, but avoid striking innocent NPCs at all costs.
+						<br/>
+						<br/>
+						Developed in 2 days for PixelFest's 2017 Game Jam in Norfolk, VA
+						<br/>
+						<br/>
+						Role: Lead Designer, Lead Programmer, 2D Artist.
+					</div>
+				</div>
+				
+				<div class="project-container project-container-left">
+					<div class="project-info">
+						<div class="project-title  project-title-small">
+							<img class="triangle-left triangle-neko" src="images/ProjectTriangle.svg">
+							NEKO NEKO VILLAGE
+						</div>
+						Build a shrine to the phantom god Anuk to avoid a daily, deathly sacrifice. Collect necessary survival resources for your villagers to protect them from the harsh, wintery elements.
+						<br/>
+						<br/>
+						Made in 2 days for the 2016 Global Game Jam.
+						<br/>
+						<br/>
+						Role: Designer, 2D Artist, 2D Animator.
+					</div>
+					<div class="project-img-container">
+						<img class="project-img" src="images/Neko01.gif">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="graphics-projects">
+			<div id="section-container">
+				<div class="break-arrow">
+				</div>
+				<div class="title">
+					GRAPHICS
+				</div>
+				<hr align="left">
+
+				<div class="project-container">
+					<div class="project-img-container">
+						<div class="slideshow">
+							<a class="left-arrow bounce-left" onclick="changeSlide(-1)"></a>
+							<a class="right-arrow bounce-right" onclick="changeSlide(1)"></a>
+							<img class="slide project-img" src="images/VA_ConciseCommunication_01.png">
+							<img class="slide project-img" src="images/VA_Brain.png">
+							<img class="slide project-img" src="images/VA_CompareChart.png">
+							<img class="slide project-img" src="images/VA_BEST.png">
+							<img class="slide project-img" src="images/VA_StrategicSourcing.png">
+							<img class="slide project-img" src="images/VA_BESTIcons.png">
+							<img class="slide project-img" src="images/VA_Audio.png">
+						</div>
+					</div>
+					<div class="project-info">
+						<div class="project-title project-title-small">
+							<img class="triangle-right triangle-va" src="images/ProjectTriangleLight.svg">
+							U.S. Department of Veterans Affairs
+						</div>
+						Produced graphics for various courses taught in the VA, with very quick turn-around. All graphics are were required to be 508 compliant for color contrast purposes.
+					</div>
+				</div>
+				
+				<div class="project-container project-container-left">
+					<div class="project-info">
+						<div class="project-title">
+							<img class="triangle-left" src="images/ProjectTriangleLight.svg">
+							EVENTS PLUS
+						</div>
+						Branding commission for a Unity Game Engine plug-in, released May 2017 on the <a href="https://assetstore.unity.com/packages/tools/utilities/events-plus-88827" style="font-size: 18px;">Unity Asset store.</a> Created logo, banners, <a href="http://www.eventsplusplugin.com/" style="font-size: 18px;">web icons,</a> and video motion graphics to help commercially market the product.
+					</div>
+					<div class="project-img-container">
+						<img class="project-img" src="images/EventsPlus.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="animation-projects">
+			<div id="section-container">
+				<div class="break-arrow break-arrow-dark">
+				</div>
+				<div class="title">
+					ANIMATIONS
+				</div>
+				<hr align="left">
+
+				<div class="project-container">
+					<div class="project-img-container">
+						<img class="project-img" src="images/Reel.gif">
+					</div>
+					<div class="project-info">
+						<div class="project-title project-title-va">
+							<img class="triangle-right triangle-va" src="images/ProjectTriangle.svg">
+							U.S. Department of Veterans Affairs
+						</div>
+						Created motion graphics, and instructional animations for various video courses taught in the VA with short turn-around time. Used Adobe Character Animator to lip-sync audio narration for dialogue animations.
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="about-me">
+			<div id="section-container">
+				<div class="break-arrow">
+				</div>
+				<div id="banner">
+					<div id="banner-title">
+						ABOUT ME
+					</div>
+					<div id="banner-text">
+						<div class="banner-text-wrapper">
+							Multimedia artist, game developer, and UX designer based in Virginia. My passion lies in collaborating to create interesting visual experiences interweaved with engaging designs.
+							<br/>
+							<br/>
+							duncanyewell@gmail.com
+							<br/>
+							<br/>
+							<a href="https://drive.google.com/file/d/1ljYf5BQyl5aZ6mhx5Cd3JuiQB88EwpPn/view?usp=sharing">
+								Download Resume
+							</a>
+						</div>
+					</div>
+				</div>
+				<div id="skills-wrapper">
+					<div id="skill-box-left">
+						<div class="skill-circle">
+							<img id="game-icon" src="images/GameIcon.svg">
+						</div>
+						<div class="skill-title">
+							<h1>GAMES</h1>
+						</div>
+					</div>
+					<div id="skill-box-center">
+						<div class="skill-circle">
+							<img id="anim-icon" src="images/AnimIcon.svg">
+						</div>
+						<div class="skill-title">
+							<h1>ANIMATIONS</h1>
+						</div>
+					</div>
+					<div id="skill-box-right">
+						<div class="skill-circle">
+							<img id="graphic-icon" src="images/GraphicIcon.svg">
+						</div>
+						<div class="skill-title">
+							<h1>GRAPHICS</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<script src="scripts/script.js"></script>	
+	</body>
+</html>
