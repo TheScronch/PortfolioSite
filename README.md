@@ -1,2 +1,2 @@
 # PortfolioSite
--Website containing all of my latest work
+-Website containing all of info and latest work
